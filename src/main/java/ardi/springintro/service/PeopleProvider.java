@@ -1,14 +1,14 @@
 package ardi.springintro.service;
 
-import ardi.springintro.model.Person;
+import ardi.springintro.model.People;
 
 import java.util.List;
 
 public interface PeopleProvider {
 
-    public List<Person> getPeople();
+    public List<People> getPeople();
 
-    public Person getPerson(int index);
+    public People getPeople(int index);
 
 
 }

@@ -11,15 +11,15 @@ public interface SwapiClient {
 
   // people
   List<SwapiPeople> getPeople();
-  SwapiPeople getPerson(int index);
+  SwapiPeople getPeople(int index);
 
   // planets
   List<SwapiPlanet> getPlanets();
   SwapiPlanet getPlanet(int index);
 
   // species
-  List<SwapiSpecies> getSpecies();
-  SwapiSpecies getSingleSpecies(int index);
+  List<SwapiSpecies> getSpecieses();
+  SwapiSpecies getSpecies(int index);
 
   // starships
   List<SwapiStarship> getStarships();

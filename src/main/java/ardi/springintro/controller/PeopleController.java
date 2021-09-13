@@ -22,7 +22,7 @@ public class PeopleController {
 
   @GetMapping("/people/{index}")
   public Person getMovie(@PathVariable(name = "index") int urutan) {
-    Person person = starwarsPeople.getPerson(urutan);
+    Person person = starwarsPeople.getPeople(urutan);
 
     return person;
   }

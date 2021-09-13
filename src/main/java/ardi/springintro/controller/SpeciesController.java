@@ -18,15 +18,15 @@ public class SpeciesController {
   private SpeciesProvider starwarsSpecies;
 
   @GetMapping("/species")
-  public List<Species> getSpecies() {
-    List<Species> species = starwarsSpecies.getSpecies();
+  public List<Species> getSpecieses() {
+    List<Species> species = starwarsSpecies.getSpecieses();
 
     return species;
   }
 
   @GetMapping("/species/{index}")
-  public Species getSingleSpecies(@PathVariable(name = "index") int urutan) {
-    Species species = starwarsSpecies.getSingleSpecies(urutan);
+  public Species getSpecies(@PathVariable(name = "index") int urutan) {
+    Species species = starwarsSpecies.getSpecies(urutan);
 
     return species;
   }

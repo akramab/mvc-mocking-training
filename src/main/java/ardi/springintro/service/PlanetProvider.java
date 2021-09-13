@@ -9,6 +9,7 @@ import java.util.List;
 public interface PlanetProvider {
 
     public List<Planet> getPlanets();
+    
     public Planet getPlanet(int index);
 
 }

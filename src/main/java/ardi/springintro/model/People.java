@@ -1,13 +1,13 @@
 package ardi.springintro.model;
 
-public class Person {
+public class People {
   String gender;
   String name;
 
-  public Person() {
+  public People() {
   }
 
-  public Person(String gender, String name) {
+  public People(String gender, String name) {
     this.gender = gender;
     this.name = name;
   }

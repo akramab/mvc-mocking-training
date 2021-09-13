@@ -11,5 +11,4 @@ public interface StarshipProvider {
 
     public Starship getStarship(int index);
 
-
 }
